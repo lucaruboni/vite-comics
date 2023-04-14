@@ -72,5 +72,20 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+  section{
+    
+    background-color: #0282f9;
+    img{
+     
+      height: 100px;
+      align-self: center;
+    }
+    p{
+      color: white;
+      font-size: 0.8rem;
+      align-self: center;
+      padding-top: 0.5rem;
+    }
+  }
 
 </style>

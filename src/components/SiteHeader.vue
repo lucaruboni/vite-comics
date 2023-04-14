@@ -12,47 +12,47 @@ export default{
                 currentPage: true
             },
             {
-                text: 'characters',
+                text: 'COMICS',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'MOVIES',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'TV',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'GAMES',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'COLLECTIBLES',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'VIDEOS',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'FANS',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'NEWS',
                 href: '#',
                 currentPage: false
             },
             {
-                text: 'characters',
+                text: 'SHOP',
                 href: '#',
                 currentPage: false
             }
