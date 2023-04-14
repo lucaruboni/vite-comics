@@ -72,16 +72,18 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
+
   section{
     
-    background-color: #0282f9;
+    background-color: $primary;
     img{
      
       height: 100px;
       align-self: center;
     }
     p{
-      color: white;
+      color: $light;
       font-size: 0.8rem;
       align-self: center;
       padding-top: 0.5rem;

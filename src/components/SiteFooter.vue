@@ -103,13 +103,14 @@ export default{
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
 
 footer{
    
    height: 450px;
 
    h3{
-     color: #0282f9;
+     color: $primary;
    }
 
    ul{
@@ -117,7 +118,7 @@ footer{
    }
    li{
      list-style-type: none;
-     color: grey;
+     color: $light_dark;
      font-size: 0.9rem;
    }
    .logo_back{
@@ -125,7 +126,7 @@ footer{
     
    }
    .row{
-     color: white;
+     color: $light;
    .up_col{
      
      background-image: url(../assets/img/footer-bg.jpg);
@@ -133,10 +134,10 @@ footer{
      background-size: cover;
    }
    .down_col{
-     background-color: #303030;
+     background-color: $dark;
     
      .my_btn{
-       color: white;
+       color: $light;
        border-radius: 0;
        border-width: 2px;
        padding-bottom: 12px;

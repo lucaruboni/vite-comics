@@ -34,13 +34,13 @@ import SiteHeader
 
 <style lang="scss" scoped>
   
-@use './assets/scss/partials/variables.scss';
+@use './assets/scss/partials/variables.scss' as *;
 
   main{
     height: 180px;
-    background-color: black;
+    background-color: $darker;
     h1{
-      color: white;
+      color: $light;
       padding-top: 2rem;
     }
   }
