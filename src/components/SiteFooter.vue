@@ -86,11 +86,11 @@ export default{
           
           <div class="col d-flex py-5 gap-3">
             <h3 class="me-4">FOLLOW US</h3>
-            <img src="../assets/img/footer-facebook.png" alt="">
-            <img src="../assets/img/footer-periscope.png" alt="">
-            <img src="../assets/img/footer-pinterest.png" alt="">
-            <img src="../assets/img/footer-twitter.png" alt="">
-            <img src="../assets/img/footer-youtube.png" alt="">
+            <img class="icon_size" src="../assets/img/footer-facebook.png" alt="">
+            <img class="icon_size" src="../assets/img/footer-periscope.png" alt="">
+            <img class="icon_size" src="../assets/img/footer-pinterest.png" alt="">
+            <img class="icon_size" src="../assets/img/footer-twitter.png" alt="">
+            <img class="icon_size" src="../assets/img/footer-youtube.png" alt="">
           </div>
 
             </div>
@@ -156,6 +156,11 @@ footer{
      }
    }
   }
+ }
+ 
+ .icon_size{
+    height: 35px;
+    aspect-ratio: 1 / 1;
  }
 
 </style>

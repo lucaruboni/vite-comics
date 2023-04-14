@@ -85,6 +85,7 @@ export default{
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
       header{
+        z-index: 100;
         position: sticky;
         top: 0;
         left: 0;

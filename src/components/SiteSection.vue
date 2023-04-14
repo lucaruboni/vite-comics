@@ -5,23 +5,23 @@ export default{
         return{
             banner: [
                 {
-                    text: 'Digital Comics',
+                    text: 'DIGITAL COMICS',
                     src: 'buy-comics-digital-comics.png'
                 },
                 {
-                    text: 'Digital Comics',
+                    text: 'DC MERCHANDISE',
                     src: 'buy-comics-merchandise.png'
                 },
                 {
-                    text: 'Digital Comics',
+                    text: 'SUBSCRIPTION',
                     src: 'buy-comics-shop-locator.png'
                 },
                 {
-                    text: 'Digital Comics',
+                    text: 'COMIC SHOP LOCATOR',
                     src: 'buy-comics-subscriptions.png'
                 },
                 {
-                    text: 'Digital Comics',
+                    text: 'DC POWER VISA',
                     src: 'buy-dc-power-visa.svg'
                 }
                 
@@ -77,11 +77,24 @@ export default{
   section{
     
     background-color: $primary;
+    height: 105px;
+
+
+    .col{
+        margin: 2px;
+        &:hover{
+            border: 2px solid $light;
+        }
+    }
+    
+  
     img{
      
       height: 100px;
       align-self: center;
-    }
+      
+      }
+    
     p{
       color: $light;
       font-size: 0.8rem;

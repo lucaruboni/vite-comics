@@ -9,7 +9,7 @@ export default{
 </script>
 
 <template>
-     <li class="mt-3">
+     <li class="mt-3 d-flex">
         <div>
           <img :src="thumb" class="card-img-top" alt="...">
           <div>
@@ -23,12 +23,27 @@ export default{
 @use '../assets/scss/partials/variables.scss' as *;
 
 img{
+   max-width: 100%;
+   max-height: 100%; 
+   height: 400px;
+   width: 300px;
+
+   &:hover{
+    filter: blur(1px);
+   }
     
-    height: 200px;
   }
   li{
+   
+    
     list-style-type: none;
     color: $light_dark;
+     
+    p{
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
   }
 
 </style>
