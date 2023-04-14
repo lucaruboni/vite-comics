@@ -64,11 +64,11 @@ export default{
 
 <template>
     
-  <header class="my-2">
-    <nav class="container">
-      <div class="row">
+  <header>
+    <nav class="container h-100">
+      <div class="row h-100">
         <div class="col">
-          <img src="../assets/img/dc-logo.png" alt="DC" class="mt-2">
+          <img src="../assets/img/dc-logo.png" alt="DC" class="mt-4">
         </div>
         <div class="col">
           <ul class="d-flex gap-3 mt-5">
@@ -89,10 +89,19 @@ export default{
         top: 0;
         left: 0;
         height: 150px;
+        background-color: $light;
 
     li{
       list-style-type: none;
       font-weight: 600;
+      margin-right: 0.2rem;
+      height: 102px;
+
+      &:hover{
+        color: $primary;
+        border-bottom: 20px solid $primary;
+
+      }
     }
   }
 </style>
