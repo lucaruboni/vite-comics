@@ -1,73 +1,30 @@
+import SiteHeader
 <script>
-   
+  import SiteHeader from './components/SiteHeader.vue'
+  import SiteSection from './components/SiteSection.vue'
   export default{
+    components : {
+      SiteHeader,
+      SiteSection
+    },
 
+    data(){
+      return{
+        
+      }
+    }
   }
 
 </script>
 
 <template>
-
-  <header class="my-2">
-    <nav class="container">
-      <div class="row">
-        <div class="col">
-          <img src="./assets/img/dc-logo.png" alt="DC" class="mt-2">
-        </div>
-        <div class="col">
-          <ul class="d-flex gap-3 mt-5">
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEO</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOP</li>
-          </ul>
-        </div>
-      </div>
-
-    </nav>
-  </header>
+<SiteHeader/>
 
   <main>
     <h1>     --> Your content goes here!</h1>
   </main>
+<SiteSection/>
 
-  <section>
-    <div class="container">
-    <div class="row mx-5">
-      <div class="col d-flex">
-        <img src="./assets/img/buy-comics-digital-comics.png" alt="buy comics" class="p-4">
-        <p>DIGITAL COMICS</p>
-      </div>
-      
-      <div class="col d-flex">
-        <img src="./assets/img/buy-comics-merchandise.png" alt="buy comics" class="p-4">
-        <p>DC MERCHANDISE</p>
-      </div>
-
-      <div class="col d-flex">
-        <img src="./assets/img/buy-comics-shop-locator.png" alt="buy comics" class="p-4">
-        <p>SUBSCRIPTION</p>
-      </div>
-
-      <div class="col d-flex">
-        <img src="./assets/img/buy-comics-subscriptions.png" alt="buy comics" class="p-4">
-        <p>COMIC SHOP LOCATOR</p>
-      </div>
-
-      <div class="col d-flex">
-        <img src="./assets/img/buy-dc-power-visa.svg" alt="buy comics" class="p-4">
-        <p>DC POWER VISA</p>
-      </div>
-      
-    </div>
-  </div>
-  </section>
 
   <footer>
       <div class="row flex-wrap">
@@ -166,14 +123,7 @@
 
 <style lang="scss" scoped>
   
-  header{
-    
-    li{
-      list-style-type: none;
-      font-weight: 600;
-    }
-  }
-
+@use './assets/scss/partials/variables.scss';
 
   main{
     height: 180px;
