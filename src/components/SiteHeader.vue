@@ -85,7 +85,11 @@ export default{
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables.scss' as *;
       header{
-    
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 150px;
+
     li{
       list-style-type: none;
       font-weight: 600;

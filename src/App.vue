@@ -3,11 +3,14 @@ import SiteHeader
   import SiteHeader from './components/SiteHeader.vue'
   import SiteSection from './components/SiteSection.vue'
   import SiteFooter from './components/SiteFooter.vue'
+  import SiteMain from './components/SiteMain.vue'
+  
   export default{
     components : {
       SiteHeader,
       SiteSection,
-      SiteFooter
+      SiteFooter,
+      SiteMain
     },
 
     data(){
@@ -21,10 +24,8 @@ import SiteHeader
 
 <template>
 <SiteHeader/>
+<SiteMain/>
 
-  <main>
-    <h1>     --> Your content goes here!</h1>
-  </main>
 <SiteSection/>
 
 
@@ -34,16 +35,6 @@ import SiteHeader
 
 <style lang="scss" scoped>
   
-@use './assets/scss/partials/variables.scss' as *;
-
-  main{
-    height: 180px;
-    background-color: $darker;
-    h1{
-      color: $light;
-      padding-top: 2rem;
-    }
-  }
 
 
 
